@@ -1,0 +1,38 @@
+@layer base {
+  html {
+    @apply scroll-smooth font-poppins;
+  }
+
+  body {
+    @apply bg-background text-foreground text-normal mt-[3.5rem];
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+    transition: 0.4s;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-title font-semibold;
+  }
+
+  img {
+    @apply max-w-full h-auto;
+  }
+
+  button,
+  input,
+  textarea {
+    @apply text-inherit text-normal;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-[0.6rem] bg-scrollbar;
+
+    &-thumb {
+      @apply rounded-[0.5rem] bg-thumb;
+    }
+  }
+}

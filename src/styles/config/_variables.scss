@@ -1,0 +1,14 @@
+@layer base {
+  :root {
+    --hue: 152;
+    --background: var(--hue), 0%, 100%;
+    --foreground: var(--hue), 4%, 35%;
+    --primary: var(--hue), 24%, 32%;
+    --title: var(--hue), 4%, 15%;
+    --container: var(--hue), 100%, 100%;
+    --scrollbar: var(--hue), 4%, 53%;
+    --thumb: var(--hue), 4%, 29%;
+
+    --font-poppins: 'Poppins', sans-serif;
+  }
+}

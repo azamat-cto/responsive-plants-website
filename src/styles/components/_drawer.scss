@@ -1,0 +1,15 @@
+.drawer {
+  @apply md:hidden;
+
+  &__nav.EZDrawer__container {
+    @apply bg-container rounded-l-2xl pt-16 pl-12;
+  }
+
+  &__list {
+    @apply w-full h-full flex flex-col gap-y-6;
+  }
+
+  &__link {
+    @apply text-title font-medium transition-colors duration-300 hover:text-primary;
+  }
+}

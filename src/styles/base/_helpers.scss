@@ -1,0 +1,18 @@
+@layer components {
+  .section {
+    @apply pt-[5.5rem] pb-4;
+
+    &__title,
+    &__title-center {
+      @apply text-h2 mb-8 leading-[140%];
+
+      &-center {
+        @apply text-center;
+      }
+    }
+  }
+
+  .main {
+    @apply overflow-hidden;
+  }
+}

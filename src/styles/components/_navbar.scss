@@ -1,0 +1,6 @@
+.nav {
+  @apply hidden md:block;
+  &__list {
+    @apply flex items-center gap-x-4;
+  }
+}

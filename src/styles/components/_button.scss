@@ -1,0 +1,13 @@
+.theme-toggle,
+.open-drawer,
+.close-drawer {
+  @apply text-title;
+}
+
+.open-drawer {
+  @apply md:hidden;
+}
+
+.close-drawer {
+  @apply absolute top-4 right-5;
+}
